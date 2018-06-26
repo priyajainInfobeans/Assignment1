@@ -17,8 +17,7 @@ for i in range(0, n):
          1:Create a contact
          2:Read a contact
          3:Delete a contact
-         4:Update a contact
-
+         4:Update a contact"""
 choice=input("Enter your choice")
 def Create(dict1):
     name3=raw_input("Enter the new name you want to create: ")
@@ -48,9 +47,9 @@ def update(dict1,n,list1):
 def view(dict1):
     print dict1
 if (choice==1):
-    create(dict1)
+    Create(dict1)
 elif (choice==2):
-   read(dict1,n,list1,temp)
+    Read(dict1,n,list1,temp)
 elif (choice==3):
    delete(dict1)
 elif (choice==4):
