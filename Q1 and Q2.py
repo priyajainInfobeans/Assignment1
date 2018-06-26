@@ -1,4 +1,4 @@
-# Q1 and Q2
+#Q1andQ2
 
 arr = map(str,raw_input("Enter list to print pattern :").split())
 
@@ -10,5 +10,6 @@ for i in range(n/2, 0, -1):
         
     print  " "*(n-j-1) + str(arr[i-1]) +"  "*(n-i-1) + str(arr[j+1])
     j += 1
+    
     
 
